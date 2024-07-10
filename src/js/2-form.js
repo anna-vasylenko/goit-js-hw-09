@@ -7,8 +7,8 @@ const formData = {
 };
 
 formEl.addEventListener('input', e => {
-  formData.email = e.currentTarget.elements.email.value;
-  formData.message = e.currentTarget.elements.message.value;
+  formData.email = e.currentTarget.elements.email.value.trim();
+  formData.message = e.currentTarget.elements.message.value.trim();
   saveToLS(FEEDBACK_KEY, formData);
 });
 
