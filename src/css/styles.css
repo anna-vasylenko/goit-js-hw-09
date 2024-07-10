@@ -21,3 +21,95 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+input {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 360px;
+  min-height: 40px;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+input:hover,
+textarea:hover {
+  border-color: #242424;
+}
+input:focus,
+textarea:focus {
+  border-color: #242424;
+  outline: none;
+}
+
+textarea {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  width: 360px;
+  min-height: 80px;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+button {
+  width: 95px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  transition: background-color 250ms;
+}
+
+button:hover {
+  background-color: #6c8cff;
+}
